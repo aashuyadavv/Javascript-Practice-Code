@@ -40,3 +40,11 @@ guestPlusThree.addEventListener("click", function() {
     guestScore += 3
     document.getElementById("guest-score").textContent = guestScore
 })
+
+let newGame = document.getElementById("new-game")
+newGame.addEventListener("click", function() {
+    homeScore = 0
+    guestScore = 0
+    document.getElementById("home-score").textContent = homeScore
+    document.getElementById("guest-score").textContent = guestScore
+})
