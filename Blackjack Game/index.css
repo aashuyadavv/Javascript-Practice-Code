@@ -3,6 +3,7 @@ body {
     sans-serif;
     background-image: url("images/table.avif");
     background-size: cover;
+    font-weight: bold;
     text-align: center;
     color: white;
 }
