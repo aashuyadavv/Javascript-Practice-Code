@@ -24,3 +24,27 @@ generateBtn.addEventListener("click", function() {
         generatePassword();
 
 });
+
+document.getElementById("password-one").addEventListener("click", function () {
+    let password = this.textContent;
+
+    navigator.clipboard.writeText(password);
+
+    this.textContent = "Copied!";
+
+    setTimeout(() => {
+        this.textContent = password;
+    }, 1500);
+});
+
+document.getElementById("password-two").addEventListener("click", function () {
+    let password = this.textContent;
+
+    navigator.clipboard.writeText(password);
+
+    this.textContent = "Copied!";
+
+    setTimeout(() => {
+        this.textContent = password;
+    }, 1500);
+});
