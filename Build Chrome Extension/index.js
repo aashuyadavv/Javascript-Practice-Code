@@ -1,22 +1,22 @@
 let myLeads = []
-
-// myLeads = JSON.parse(myLeads)
-// myLeads.push("www.lead2.com")
-// myLeads = JSON.stringify(myLeads)
-// console.log(typeof myLeads)
-
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
+const deleteBtn = document.getElementById("delete-btn")
 
-// localStorage.clear()
-let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads") )
-console.log(leadsFromLocalStorage)
+const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads") )
 
 if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
     renderLeads()
 }
+
+deleteBtn.addEventListener("dblclick", function() {
+    localStorage.clear()
+    myLeads = []
+    renderLeads()
+})
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
@@ -65,3 +65,8 @@ function renderLeads() {
 // inputBtn.addEventListener("click", function(){
 //     console.log("Button clicked from addEventListener");
 // })
+// myLeads = JSON.parse(myLeads)
+// myLeads.push("www.lead2.com")
+// myLeads = JSON.stringify(myLeads)
+// console.log(typeof myLeads)
+// localStorage.clear()
