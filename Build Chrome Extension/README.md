@@ -1,19 +1,42 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🚀 Lead Tracker — Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and useful Chrome Extension built with **HTML, CSS, and JavaScript** to save and manage leads directly from the browser.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+The extension allows users to manually enter a lead, save the current browser tab as a lead, and delete all saved leads when needed.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
 
-Happy Coding!
+## ✨ Features
+
+- 📝 **Save Input** — Save a manually entered lead or URL.
+- 🌐 **Save Current Tab** — Save the URL of the currently active browser tab.
+- 🗑️ **Delete All Leads** — Remove all saved leads with one click.
+- 💾 **Local Storage** — Leads remain saved in the browser.
+- ⚡ **Simple & Fast UI** — Lightweight and easy to use.
+- 🧩 **Chrome Extension** — Runs directly inside Google Chrome.
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Chrome Extensions API
+- Local Storage
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+Build Chrome Extension/
+│
+├── index.html
+├── index.css
+├── index.js
+├── manifest.json
+├── package.json
+├── vite.config.js
+└── icon.png
