@@ -1,0 +1,17 @@
+{
+  "name": "Aashu",
+  "description": "A simple project to understand the difference between let and const in JavaScript.",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}
