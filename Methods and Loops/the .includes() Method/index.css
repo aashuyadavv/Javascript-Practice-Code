@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 320px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    white-space: nowrap;
+    margin: 8px 0 28px;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 20px;
+    width: 75%;
+}
+
+.list-item {
+    border: 2px solid #8ec9df;
+    border-radius: 5px;
+    padding: 5px 9px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #f8fcff;
+    overflow-wrap: anywhere;
+}
+
+.input-section {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.item-box {
+    width: 175px;
+    height: 40px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 0 8px 5px;
+    margin: 0 auto 8px;
+}
+
+.item-box legend {
+    font-size: 14px;
+    padding: 0 3px;
+}
+
+#item-Input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 12px;
+    background: transparent;
+}
+
+#add-Item-Btn {
+    display: block;
+    width: 85px;
+    padding: 7px;
+    margin: 0 auto;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    background-color: #eee;
+}
+
+#add-Item-Btn:hover {
+    background-color: #ddd;
+}
