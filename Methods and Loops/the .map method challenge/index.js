@@ -16,7 +16,7 @@ const playlistHtml = playlistArr.map(function (track) {
             </div>
         </section>
         `
-    })
+    }).join('')
 
 // for (let i = 0; i < playlistArr.length; i++) {
 //     playlistHtml.push(
