@@ -1,0 +1,31 @@
+const characters = [
+    {
+        title: 'Aashish',
+        emoji: '🧑🏽‍💻',
+        powers: ['coding', 'debugging', 'problem-solving'],
+    },
+    {
+        title: 'Ninja',
+        emoji: '🥷',
+        powers: ['agility', 'stealth', 'aggression'],
+    },
+    {
+        title: 'Samurai',
+        emoji: '🗡️',
+        powers: ['honor', 'loyalty', 'courage'],
+    },
+    {
+        title: 'Wizard',
+        emoji: '🧙',
+        powers: ['magic', 'spellcasting', 'enchanting'],
+    }
+]
+
+characters.forEach(function(character, index){
+        console.log(index, character.title)
+    })
+
+
+    // character.powers.forEach(function(power){
+    //     console.log(power)
+// })
