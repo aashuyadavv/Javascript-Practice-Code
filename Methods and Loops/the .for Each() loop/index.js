@@ -25,6 +25,8 @@ characters.forEach(function(character, index){
         console.log(index, character.title)
     })
 
+// use .forEach() if u don't need to create a new array. 
+
 
     // character.powers.forEach(function(power){
     //     console.log(power)

@@ -18,6 +18,7 @@ const playlistHtml = playlistArr.map(function (track) {
         `
     }).join('')
 
+    // use. map() if u need to make use of the new array it returns.
 // for (let i = 0; i < playlistArr.length; i++) {
 //     playlistHtml.push(
 
